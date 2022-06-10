@@ -1,1 +1,93 @@
+body, html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato", sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+  }
+  
+  .pimg1, .pimg2, .pimg3, .pimg4 , .pimg5 , .pimg6 , .pimg7 , .pimg8 , .pimg9{
+    position:relative;
+    opacity:0.60;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+  }
+  
+  .pimg1{
+    background-image:url('https://media.istockphoto.com/photos/young-woman-with-dog-picture-id1060529042?b=1&k=20&m=1060529042&s=170667a&w=0&h=2IqOza6nlPfHw_w0877B-I6ROr0SZsx5n9BxNMum5Tk=');
+    min-height:100%;
+  }
+  
+  .pimg2{
+    background-image:url('https://media.istockphoto.com/photos/golden-retriver-puppy-on-white-background-picture-id961298978?k=20&m=961298978&s=612x612&w=0&h=Ox8Gm3AOpxk1HfI9SYUqogjuP2KKdzWQKiIWCLBkR-0=');
+    min-height:400px;
+  }
+  
+  .pimg3{
+    background-image:url('https://media.istockphoto.com/photos/mops-dog-picture-id842814768?k=20&m=842814768&s=612x612&w=0&h=gUjOAhDSIU9aRwuCV9UbG4dde20ljKUu0saqVyijIW4=');
+    min-height:400px;
+  }
+  .pimg4{
+    background-image:url('https://media.istockphoto.com/photos/portrait-of-a-german-shephard-picture-id155369650?k=20&m=155369650&s=612x612&w=0&h=JIOr2Lcwyxm_VXEn3Yktm-Hh45wNwnHn1n8unVsof8U=');
+    min-height:400px;
+  }
+  .pimg5{
+    background-image:url('https://media.istockphoto.com/photos/portrait-of-a-pariah-dog-at-mountains-stolovi-picture-id527024865?k=20&m=527024865&s=612x612&w=0&h=m1r5B4zBPfCZlkrV3VtLSwSFj9O-ner998lrirObamE=');
+    min-height:400px;
+  }
+  .pimg6{
+    background-image:url('https://media.istockphoto.com/photos/portrait-pomeranian-dog-picture-id480412341?k=20&m=480412341&s=612x612&w=0&h=LIq6QR284iw5iQf-YWTdzoE_usmyxcVy0AQUPEfeTY0=');
+    min-height:400px;
+  }
+  .pimg7{
+    background-image:url('https://media.istockphoto.com/photos/isolated-picture-of-a-short-haired-dachshund-picture-id108598393?k=20&m=108598393&s=612x612&w=0&h=yJlpzhDvh5mbSGI65aiZSL5PAf14of3CYTVq20UXb8s=');
+    min-height:400px;
+  }
+  .pimg8{
+    background-image:url('https://media.istockphoto.com/photos/young-doberman-lying-on-white-background-picture-id480981044?k=20&m=480981044&s=612x612&w=0&h=WzBLewpUgYKhypVWluFdz6TF_LaG60XAFmQ8K_783mY=');
+    min-height:400px;
+  }
+  .pimg9{
+    background-image:url('https://media.istockphoto.com/photos/dalmatian-dog-isolated-on-white-picture-id500851439?k=20&m=500851439&s=612x612&w=0&h=TU1BiFyt2z7uYKjpuPv1vrVDftK4UWsh1OK_Xl-CEz4=');
+    min-height:400px;
+  }
 
+  .section{
+    text-align:center;
+    padding:50px 80px;
+  }
+  
+  .section-light{
+    background-color:#f4f4f4;
+    color:#666;
+  }
+  
+  .section-dark{
+    background-color:#282e34;
+    color:#ddd;
+  }
+  
+  .ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+  }
+  
+  .ptext .border{
+    background-color:#111;
+    color:#fff;
+    padding:20px;
+  }
+  
+  .ptext .border.trans{
+    background-color:transparent;
+  }
