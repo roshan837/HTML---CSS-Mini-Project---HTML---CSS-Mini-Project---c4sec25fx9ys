@@ -89,5 +89,6 @@ body, html{
   }
   
   .ptext .border.trans{
-    background-color:transparent;
+    background-color:rgb(255, 68, 0);
+    opacity: 0.5;
   }
